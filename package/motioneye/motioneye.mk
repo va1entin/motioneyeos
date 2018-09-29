@@ -4,9 +4,9 @@
 #
 #############################################################
 
-MOTIONEYE_VERSION = 8d718c31387c6d9cdda2ef1358ebb05d075f178e
-MOTIONEYE_SITE = $(call github,ccrisan,motioneye,$(MOTIONEYE_VERSION))
-MOTIONEYE_SOURCE = $(MOTIONEYE_VERSION).tar.gz
+#MOTIONEYE_VERSION = 8d718c31387c6d9cdda2ef1358ebb05d075f178e
+MOTIONEYE_SITE = https://github.com/va1entin/motioneye/archive
+MOTIONEYE_SOURCE = master.zip
 MOTIONEYE_LICENSE = GPLv3
 MOTIONEYE_LICENSE_FILES = LICENCE
 MOTIONEYE_INSTALL_TARGET = YES
