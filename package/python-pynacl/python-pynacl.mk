@@ -4,7 +4,7 @@
 #
 ################################################################################
 
-PYTHON_PYNACL_VERSION = 1.0.1
+PYTHON_PYNACL_VERSION = 1.3.0
 PYTHON_PYNACL_SOURCE = PyNaCl-$(PYTHON_PYNACL_VERSION).tar.gz
 PYTHON_PYNACL_SITE = http://pypi.python.org/packages/source/P/PyNaCl
 PYTHON_PYNACL_LICENSE = Apache-2.0

@@ -1,0 +1,6 @@
+config BR2_PACKAGE_PYTHON_PLASM
+	bool "python-plasm"
+	select BR2_PACKAGE_PYTHON_PYNACL # runtime
+	help
+      PynacL AbStraction Module for simple public key file encryption/decryption
+	  https://gitlab.com/va1entin/plasm
